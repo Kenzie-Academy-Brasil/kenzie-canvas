@@ -38,7 +38,7 @@ const Instructions = () => {
                 <li>
                     <strong>Slack (slack.com):</strong> O slack é uma das principais ferramentas de comunidade do mercado. E é por lá que você conseguirá interagir com outros usuários, se comunicar com o time de ensino da Kenzie e principalmente tirar todas as dúvidas que surgirem com nosso time de suporte!</li>
             </ul>
-            <p>Não está na comunidade do Experiência Kenzie ainda? Entre agora mesmo através do link: <a href="https://join.slack.com/t/experienciakenzie/shared_invite/zt-j1wh9ho6-3ojdK0frsafrRtPzfC81hg" class="external" target="_blank" rel="noreferrer noopener"><span>Junte-se a nossa comunidade no Slack</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo."></span><span class="screenreader-only">&nbsp;</span></a></p>
+            <p>Não está na comunidade do Experiência Kenzie ainda? Entre agora mesmo através do link: <a href="https://semanazeroaojs.slack.com/join/shared_invite/zt-kpsiufn8-jCYiIbisqPeeJz3AAjKcYw#/" class="external" target="_blank" rel="noreferrer noopener"><span>Junte-se a nossa comunidade no Slack</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo."></span><span class="screenreader-only">&nbsp;</span></a></p>
             <p>&nbsp;</p>
             <ul>
                 <li><strong>Codewars (codewars.com):&nbsp;</strong></li>
@@ -65,7 +65,9 @@ const Instructions = () => {
 
             <div>
                 <h3>O Curso</h3>
-                <p>O curso de Introdução a Programação com Javascript está estruturado em 8 módulos. Cada módulo é identificado como 1 dia de estudo. Sugerimos para que cumpra todos o conteúdo e realize todas as atividades que estude entre 4 a 6 horas por dia.</p>
+                <p>
+                    O curso de Introdução a Programação com Javascript está estruturado em 8 módulos.
+                </p>
                 <p>Os módulos que serão mostrados no curso são:</p>
                 <ul>
                     <li>MÓDULO A - JavaScript Básico, Variáveis e Comparando Variáveis</li>
@@ -109,7 +111,7 @@ const Instructions = () => {
                     <img src={duvidas} alt="Captura de Tela 2020-11-13 às 11.34.38.png" width="320" height="70" data-api-endpoint="https://experiencia.kenzie.com.br/api/v1/courses/5/files/121" data-api-returntype="File" />
                 </figure>
             </div>
-            <div>
+            {/* <div>
                 <p >&nbsp;</p>
                 <h3 >Entregas</h3>
                 <p>Durante o curso você deverá fazer 2 entregas e ter um taxa de acerto acima de 70% para conquistar seu certificado.</p>
@@ -121,7 +123,7 @@ const Instructions = () => {
                 <p >&nbsp;</p>
                 <p >Esperamos que você tenha um aprendizado muito bom com a Kenzie e faça a introdução na carreira de desenvolvimento de software com grande sucesso!</p>
                 <p >Bom curso e <strong>BORA CODAR!</strong></p>
-            </div>
+            </div> */}
 
         </PageContainer>
     )
