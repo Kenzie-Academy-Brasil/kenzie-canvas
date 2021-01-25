@@ -27,6 +27,10 @@ const Modules = (props) => {
 
     const renderLives = () => {
         setSelectLesson("lives")
+
+        if (width < 1024) {
+            setMenuModules(!menuModules)
+        }
     }
 
     return (
