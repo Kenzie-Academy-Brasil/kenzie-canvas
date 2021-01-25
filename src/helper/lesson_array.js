@@ -117,13 +117,13 @@ export const lessons = [
             },
         ],
         "issuesList": [
-            {
-                "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "Entrega - Nos envie seu usuário do codewars",
-                "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/294",
-                "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=16610667&filename=README.md&ref=experiencia",
-                "fileName": ""
-            },
+            // {
+            //     "module": "Fundamentos de programação com JavaScript",
+            //     "lessonName": "Entrega - Nos envie seu usuário do codewars",
+            //     "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/294",
+            //     "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=16610667&filename=README.md&ref=experiencia",
+            //     "fileName": ""
+            // },
             {
                 "module": "Fundamentos de programação com JavaScript",
                 "lessonName": "12 - Lista de exercícios - Dia 1",
