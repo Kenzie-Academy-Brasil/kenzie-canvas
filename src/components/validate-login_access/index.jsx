@@ -6,7 +6,7 @@ import { FormContainer, StyledButton, StyledInput } from '../../style/styled-com
 
 const ValidateLogin = (props) => {
     const [accessGranted, setAccessGranted] = useState()
-    const [accessKey, setAccessKey] = useState("pikachu")
+    const [accessKey, setAccessKey] = useState("queroserfullstack")
     const label = ""
     const history = useHistory()
 

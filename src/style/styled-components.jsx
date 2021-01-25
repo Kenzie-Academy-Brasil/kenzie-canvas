@@ -163,6 +163,10 @@ const PageContainer = styled.div`
         justify-content: center;
     }
 
+    iframe {
+        margin-left: 20%;
+    }
+
     /*RESPONSIVE*/
     @media (min-width: 320px) and (max-width: 1024px) {
         width: 100%;
@@ -180,6 +184,10 @@ const PageContainer = styled.div`
 
         a {
             font-size: 16px;
+        }
+
+        iframe {
+            margin-left: 10%;
         }
     }
     

@@ -22,6 +22,14 @@ const Instructions = () => {
         }
     }
 
+    const responsiveVideo = () => {
+        if (width > 320 && width < 1024) {
+            return <iframe src="//player.vimeo.com/video/76979871?title=0&amp;byline=0&amp;portrait=0" width="300" height="338" frameborder="0" allowfullscreen=""></iframe>
+        } else {
+            return <iframe src="//player.vimeo.com/video/76979871?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" allowfullscreen=""></iframe>
+        }
+    }
+
     return (
         <PageContainer>
             <HeaderContainer>
@@ -52,6 +60,12 @@ const Instructions = () => {
 
             <div>
                 <p>Selecione a linguagem JAVASCRIPT e a ferramenta irá te propor um desafio para liberar seu login. É algo simples, mas caso tenha dúvidas peça ajuda a seus colegas na comunidade do SLACK</p>
+            </div>
+
+            <div>
+                <p>
+                    <a href="https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript">Neste exemplo</a> (imagem abaixo), o kata pede para você corrigir o que não está funcionando perfeitamente. Nele, falta um <strong>return</strong> para então retornar a multiplicação entre <strong>a</strong> e <strong>b</strong>, e você pode conferir a resolução na imagem abaixo:
+                </p>
             </div>
 
             <figure>
@@ -90,8 +104,8 @@ const Instructions = () => {
                     <span>Como ativar as legendas</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo."></span><span class="screenreader-only">&nbsp;</span></a></p>
                 <p>&nbsp;</p>
 
-                <iframe src="//player.vimeo.com/video/76979871?title=0&amp;byline=0&amp;portrait=0" width={responsiveSrc} height="338" frameborder="0" allowfullscreen=""></iframe>
-
+                {responsiveVideo()}
+                <p>&nbsp;</p>
                 <p>Após assistir aos vídeos, você deve praticar!! E praticar muito! Para isso preparamos vários exercícios para que execute o conceito que acabou de aprender:</p>
             </div>
             <figure>

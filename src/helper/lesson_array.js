@@ -126,14 +126,14 @@ export const lessons = [
             // },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "12 - Lista de exercícios - Dia 1",
+                "lessonName": "12 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/245",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia1.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "13 - Lista de exercícios simplificados - Dia 1",
+                "lessonName": "13 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/246",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia1-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -179,14 +179,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "18 - Lista de exercícios -  Dia 2",
+                "lessonName": "18 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/252",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia2.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "19 - Lista de exercícios simplificados - Dia 2",
+                "lessonName": "19 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/253",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia2-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -260,14 +260,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "28 - Lista de Exercícios - Dia 3",
+                "lessonName": "28 - Lista de Exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/263",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia3.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "29 - Lista de Exercícios Simplificados - Dia 3",
+                "lessonName": "29 - Lista de Exercícios Simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/264",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia3-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -314,14 +314,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "34 - Lista de exercícios - Dia 4",
+                "lessonName": "34 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/270",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia4.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "35 - Lista de exercícios simplificados  - Dia 4",
+                "lessonName": "35 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/271",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia4-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -346,21 +346,21 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "37 - Lista de exercícios - Dia 5",
+                "lessonName": "37 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/274",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia5.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "38 - Lista de exercícios simplificados  - Dia 5",
+                "lessonName": "38 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/275",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia5-simplificado.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "Entrega - Mostre seu conhecimento - semana 1",
+                "lessonName": "Entrega - Mostre seu conhecimento",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/292",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=22512849&filename=canvas_instructions.md&ref=master",
                 "fileName": ""
@@ -399,14 +399,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "42 - Lista de exercícios - Dia 6",
+                "lessonName": "42 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/280",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia6.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "43 - Lista de exercícios simplificados -  Dia 6",
+                "lessonName": "43 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/281",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia6-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -432,14 +432,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "45 - Lista de exercícios - Dia 7",
+                "lessonName": "45 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/284",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia7.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "46 - Lista de exercícios simplificados -  Dia 7",
+                "lessonName": "46 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/285",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia7-simplificado.md&ref=experiencia",
                 "fileName": ""
@@ -464,14 +464,14 @@ export const lessons = [
         "issuesList": [
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "48 - Lista de exercícios - Dia 8",
+                "lessonName": "48 - Lista de exercícios",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/288",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia8.md&ref=experiencia",
                 "fileName": ""
             },
             {
                 "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "49 - Lista de exercícios simplificados - Dia 8",
+                "lessonName": "49 - Lista de exercícios simplificados",
                 "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/289",
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia8-simplificado.md&ref=experiencia",
                 "fileName": ""
