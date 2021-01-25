@@ -237,6 +237,7 @@ const SectionDay = styled.div`
 
 const VideoHeader = styled.div`
     padding: 0 0 0 2%;
+    width: 600px;
 
     h3 {
         font-size: 18px;

@@ -127,7 +127,7 @@ const Instructions = () => {
                 <p>&nbsp;</p>
 
                 <p>
-                    Caso apresente algum erro nos testes, revise seu código e tente novamente. Se não conseguir evoluir, é só entrar na comunidade do Slack e colocar seu dúvida ou dificuldade no canal de suporte daquele módulo. Que em minutos alguém irá te ajudar!
+                    Caso apresente algum erro nos testes, revise seu código e tente novamente. Se não conseguir evoluir, é só entrar na comunidade do Slack e colocar seu dúvida ou dificuldade no canal de suporte. Que em minutos alguém irá te ajudar!
                 </p>
             </div>
             {/* <div>
