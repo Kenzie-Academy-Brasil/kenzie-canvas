@@ -9,7 +9,11 @@ const Lives = () => {
     const setResponsiveVideo = (url) => {
         if (width > 320 && width < 1024) {
             return <iframe width="300" height="170" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        } else {
+        } else if (width > 1024 && width < 1734) {
+            return <iframe width="450" height="253" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        }
+
+        else {
             return <iframe width="560" height="315" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         }
     }
@@ -154,6 +158,7 @@ const PageLivesContainer = styled.div`
     margin: 0% 10% 0 30%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 
     @media (min-width: 320px) and (max-width: 1024px) {
         width: 100%;
@@ -189,24 +194,20 @@ const LivesTitle = styled.div`
 `
 
 const GroupLivesContainer = styled.div`
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin: 1rem;
-    padding: 0 0 5% 0;
+    display: flex;
+    flex-wrap: wrap;
 
     div {
         margin: 0.5rem auto;
         padding: 0 0 0 5%;
     }
 
-    @media (min-width: 320px) and (max-width: 1024px) {
-        width: 100%;
-        margin: 2rem auto;
-        text-align: left;
-        padding: 0 0% 5% 5%;
+    @media (min-width: 320px) and (max-width: 1366px) {
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
+
     }
 
 `
