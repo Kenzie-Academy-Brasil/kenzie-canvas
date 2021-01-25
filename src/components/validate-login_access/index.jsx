@@ -5,8 +5,8 @@ import { FormContainer, StyledButton, StyledInput } from '../../style/styled-com
 
 
 const ValidateLogin = (props) => {
-    const [accessGranted, setAccessGranted] = useState()
-    const [accessKey, setAccessKey] = useState("queroserfullstack")
+    // const [accessGranted, setAccessGranted] = useState()
+    // const [accessKey, setAccessKey] = useState("queroserfullstack")
     const label = ""
     const history = useHistory()
 
@@ -44,7 +44,11 @@ const ValidateLogin = (props) => {
                 <StyledButton htmlType="submit">
                     Avançar
                 </StyledButton>
-                {accessGranted === true ? <h1>Acesso permitido!</h1> : accessGranted === false ? <h1>Acesso negado!</h1> : null}
+                {props.accessGranted === true ? <h1>Acesso permitido!</h1> : props.accessGranted === false ? <div>
+                    <h3>
+                        Acesso negado!
+                    </h3>
+                </div> : null}
             </Form.Item>
         </FormContainer>
     );

@@ -36,7 +36,7 @@ const Routes = () => {
                 {token === null ? <Redirect to='/acesso' /> : <Redirect to='/modulos' />}
             </Route>
             <Route exact path="/acesso">
-                {token === null ? <AccesPage validateLogin={onFinish} /> : <Redirect to='/modulos' />}
+                {token === null ? <AccesPage validateLogin={onFinish} accessGranted={accessGranted} /> : <Redirect to='/modulos' />}
             </Route>
             <Route exact path="/modulos">
                 {/* <Modules /> */}

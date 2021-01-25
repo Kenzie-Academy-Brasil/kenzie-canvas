@@ -101,6 +101,13 @@ const FormContainer = styled(Form)`
         padding-left: 35%;
     }
 
+    h3 {
+        padding-left: 1.5%;
+        color: red;
+        font-weight: bold;
+        padding-top: 2%;
+    }
+
     @media (min-width: 320px) and (max-width: 1024px) {
        width: 95%;
        padding-top: 40%;
@@ -110,6 +117,10 @@ const FormContainer = styled(Form)`
            font-size: 18px;
            font-weight: bold;
            color: #fff;
+       }
+
+       h3 {
+           color: white;
        }
     }
 `

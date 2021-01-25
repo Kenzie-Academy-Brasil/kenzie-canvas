@@ -8,7 +8,7 @@ const AccessPage = (props) => {
         <div>
             <SideNav />
             <BannerLogin />
-            <ValidateLogin onFinish={props.validateLogin} />
+            <ValidateLogin onFinish={props.validateLogin} accessGranted={props.accessGranted} />
         </div>
     )
 }

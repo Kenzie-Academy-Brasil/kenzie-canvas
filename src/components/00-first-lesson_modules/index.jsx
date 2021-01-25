@@ -46,7 +46,7 @@ const Instructions = () => {
                 <li>
                     <strong>Slack (slack.com):</strong> O slack é uma das principais ferramentas de comunidade do mercado. E é por lá que você conseguirá interagir com outros usuários, se comunicar com o time de ensino da Kenzie e principalmente tirar todas as dúvidas que surgirem com nosso time de suporte!</li>
             </ul>
-            <p>Não está na comunidade do Experiência Kenzie ainda? Entre agora mesmo através do link: <a href="https://semanazeroaojs.slack.com/join/shared_invite/zt-kpsiufn8-jCYiIbisqPeeJz3AAjKcYw#/" class="external" target="_blank" rel="noreferrer noopener"><span>Junte-se a nossa comunidade no Slack</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo."></span><span class="screenreader-only">&nbsp;</span></a></p>
+            <p>Não está na comunidade do Experiência Kenzie ainda? Entre agora mesmo através do link: <a href="https://participe.kenzie.com.br/slack" class="external" target="_blank" rel="noreferrer noopener"><span>Junte-se a nossa comunidade no Slack</span><span aria-hidden="true" class="ui-icon ui-icon-extlink ui-icon-inline" title="Links para um site externo."></span><span class="screenreader-only">&nbsp;</span></a></p>
             <p>&nbsp;</p>
             <ul>
                 <li><strong>Codewars (codewars.com):&nbsp;</strong></li>
@@ -127,7 +127,7 @@ const Instructions = () => {
                 <p>&nbsp;</p>
 
                 <p>
-                    <strong>MUITO IMPORTANTE:</strong> As dúvidas precisam ser enviadas para o canal de perguntas na nossa comunidade do slack, caso contrário, você não terá o nosso suporte.
+                    Caso apresente algum erro nos testes, revise seu código e tente novamente. Se não conseguir evoluir, é só entrar na comunidade do Slack e colocar seu dúvida ou dificuldade no canal de suporte daquele módulo. Que em minutos alguém irá te ajudar!
                 </p>
             </div>
             {/* <div>
