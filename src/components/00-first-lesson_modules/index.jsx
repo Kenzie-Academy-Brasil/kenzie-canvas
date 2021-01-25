@@ -124,6 +124,11 @@ const Instructions = () => {
                 <figure>
                     <img src={duvidas} alt="Captura de Tela 2020-11-13 às 11.34.38.png" width="320" height="70" data-api-endpoint="https://experiencia.kenzie.com.br/api/v1/courses/5/files/121" data-api-returntype="File" />
                 </figure>
+                <p>&nbsp;</p>
+
+                <p>
+                    <strong>MUITO IMPORTANTE:</strong> As dúvidas precisam ser enviadas para o canal de perguntas na nossa comunidade do slack, caso contrário, você não terá o nosso suporte.
+                </p>
             </div>
             {/* <div>
                 <p >&nbsp;</p>
