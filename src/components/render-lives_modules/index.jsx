@@ -6,11 +6,11 @@ import { useWindowSize } from '../../helper/window-size-hook'
 const Lives = () => {
     const { width } = useWindowSize()
 
-    const setSize = () => {
-        if (width >= 320 && width <= 1024) {
-            return "320"
+    const setResponsiveVideo = (url) => {
+        if (width > 320 && width < 1024) {
+            return <iframe width="300" height="170" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         } else {
-            return "560"
+            return <iframe width="560" height="315" src={url} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         }
     }
 
@@ -22,28 +22,48 @@ const Lives = () => {
 
             <PageLivesContainer>
 
-                <SectionDay>
-                    <p>Dia 26</p>
-                </SectionDay>
 
+                <SectionDay>
+                    <p>Tenha sucesso como programador!</p>
+                </SectionDay>
                 <GroupLivesContainer>
                     <div>
                         <VideoHeader>
                             <h3>Descubra sua grande oportunidade de carreira para 2021</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6HXeByLjrPs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/6HXeByLjrPs")}
                     </div>
+                    <div>
+                        <VideoHeader>
+                            <h3>Segredos para você ter sucesso na programação!</h3>
+                        </VideoHeader>
+                        {setResponsiveVideo("https://www.youtube.com/embed/QOoW3evXhSM")}
+                    </div>
+                    <div>
+                        <VideoHeader>
+                            <h3>A jornada COMPLETA para você entrar na carreira do futuro, ser disputado pelas empresas e ganhar 5x mais</h3>
+                        </VideoHeader>
+                        {setResponsiveVideo("https://www.youtube.com/embed/8O4z_rnqWiI")}
+                    </div>
+
+                </GroupLivesContainer>
+
+
+                <SectionDay>
+                    <p>Dia 26</p>
+                </SectionDay>
+                <GroupLivesContainer>
                     <div>
                         <VideoHeader>
                             <h3>26/01 - Live com Hudson Carolino e Maria Porcina</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/xBDAwS49Ed0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/xBDAwS49Ed0")}
                     </div>
                     <div>
                         <VideoHeader>
                             <h3>Demo com Q&A - Introdução à programação, variáveis, estruturas de decisão</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tXNaLef4w_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/tXNaLef4w_0")}
                     </div>
                 </GroupLivesContainer>
 
@@ -56,23 +76,18 @@ const Lives = () => {
 
                 <GroupLivesContainer>
 
-                    <div>
-                        <VideoHeader>
-                            <h3>Segredos para você ter sucesso na programação!</h3>
-                        </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QOoW3evXhSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+
                     <div>
                         <VideoHeader>
                             <h3>27/01 - Live com Hudson Carolino e Maria Porcina</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KfJcSrCHNnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/KfJcSrCHNnM")}
                     </div>
                     <div>
                         <VideoHeader>
-                            <h3>Demo com Q&A - Estruturas de repetição, arrays</h3>
+                            <h3>Demo com Q&A - Arrays aninhados e funções</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4OynhSBJhuk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/4OynhSBJhuk")}
                     </div>
                 </GroupLivesContainer>
 
@@ -83,23 +98,18 @@ const Lives = () => {
                 </p>
                 </SectionDay>
                 <GroupLivesContainer>
-                    <div>
-                        <VideoHeader>
-                            <h3>10 passos para ter um perfil atraente no Linkedin</h3>
-                        </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DQsNx4hhKLA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+
                     <div>
                         <VideoHeader>
                             <h3>28/01 - Live com Hudson Carolino e Maria Porcina</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/aHMGhfg8jr4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/aHMGhfg8jr4")}
                     </div>
                     <div>
                         <VideoHeader>
                             <h3>Arrays aninhados e funções</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LTklhUyDHgw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/LTklhUyDHgw")}
                     </div>
 
                 </GroupLivesContainer >
@@ -113,21 +123,22 @@ const Lives = () => {
                 <GroupLivesContainer>
                     <div>
                         <VideoHeader>
-                            <h3>A jornada COMPLETA para você entrar na carreira do futuro, ser disputado e ganhar 5x mais</h3>
+                            <h3>10 passos para ter um perfil atraente no Linkedin</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8O4z_rnqWiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/DQsNx4hhKLA")}
                     </div>
+
                     <div>
                         <VideoHeader>
                             <h3>29/01 - Live com Hudson Carolino e Maria Porcina</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4nXBiG9ZYM0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/4nXBiG9ZYM0")}
                     </div>
                     <div>
                         <VideoHeader>
                             <h3>Demo com Q&A - Introdução a objetos (como arrays associativos ou dicionários)</h3>
                         </VideoHeader>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8x0HHaWy2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {setResponsiveVideo("https://www.youtube.com/embed/Y8x0HHaWy2s")}
                     </div>
 
                 </GroupLivesContainer>
@@ -185,15 +196,17 @@ const GroupLivesContainer = styled.div`
 
     div {
         margin: 0.5rem auto;
+        padding: 0 0 0 5%;
     }
 
     @media (min-width: 320px) and (max-width: 1024px) {
         width: 100%;
         margin: 2rem auto;
         text-align: left;
-        padding: 0 5% 5% 5%;
+        padding: 0 0% 5% 5%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
 `
@@ -201,14 +214,23 @@ const GroupLivesContainer = styled.div`
 const SectionDay = styled.div`
     border-bottom: 10px solid #05143c;
     width: 100%;
-    padding-left: 0%;
+    padding-left: 0;
     text-align: left;
+    margin-left: 4%;
 
     p {
         font-size: 36px;
         font-weight: bold;
         color: #5fdbfa;
         text-shadow: #05143c;
+    }
+
+    @media (min-width: 320px) and (max-width: 1024px) {
+        width: 90%;
+        
+        p {
+            font-size: 22px;
+        }
     }
 `
 
@@ -219,5 +241,15 @@ const VideoHeader = styled.div`
         font-size: 18px;
         font-weight: bold;
         text-align: left;
+    }
+
+    @media (min-width: 320px) and (max-width: 1024px) {
+        width: 100%;
+        padding-right: 5%;
+
+        h3 {
+            font-size: 16px;
+            text-align: left;
+        }
     }
 `
