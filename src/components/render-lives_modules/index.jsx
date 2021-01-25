@@ -254,4 +254,14 @@ const VideoHeader = styled.div`
             text-align: left;
         }
     }
+
+    @media (min-width: 1025px) and (max-width: 1738px) {
+        width: 500px;
+        padding-right: 5%;
+
+        h3 {
+            font-size: 16px;
+            text-align: left;
+        }
+    }
 `
