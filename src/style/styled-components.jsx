@@ -279,7 +279,8 @@ const HeaderTitleContainer = styled.div`
     font-family: 'Montserrat', sans-serif;
 
     @media (min-width: 320px) and (max-width: 1024px) {
-        
+        padding: 0 0 1% 20%;
+
         h1 {
             color: #fff;
             font-size: 20px;

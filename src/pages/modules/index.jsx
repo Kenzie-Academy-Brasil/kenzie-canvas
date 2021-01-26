@@ -29,7 +29,7 @@ const Modules = (props) => {
         setSelectLesson("lives")
 
         if (width < 1024) {
-            setMenuModules(!menuModules)
+            setMenuModules(false)
         }
     }
 

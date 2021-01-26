@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import logo from '../../assets/img/[LOGO].png'
 import {
     StyledHeader,
     MenuContainer,
@@ -7,31 +8,33 @@ import {
     Hamburguer,
     CloseButton
 } from '../../style/styled-components'
+import styled from 'styled-components'
+
 
 const Header = (props) => {
-    const [buttonState, setButtonState] = useState(false)
 
     const handlerClick = () => {
-        setButtonState(!buttonState)
         props.setMenuModules(!props.menuModules)
     }
-
 
     return (
         <StyledHeader>
             <MenuContainer>
-                {buttonState === false ? <StyledMenuButton onClick={handlerClick} setMenuModules={props.setMenuModules} menuModules={props.menuModules} >
-                    <Hamburguer />
-                </StyledMenuButton> : <StyledMenuButton onClick={handlerClick} setMenuModules={props.setMenuModules} menuModules={props.menuModules} >
-                        <CloseButton />
-                    </StyledMenuButton>}
+                <StyledMenuButton onClick={handlerClick} setMenuModules={props.setMenuModules} menuModules={props.setMenuModules} >
+                    {props.menuModules === false ? <Hamburguer /> : <CloseButton />}
+                </StyledMenuButton>
             </MenuContainer>
             <HeaderTitleContainer>
-                <h1>Semana do Zero ao JavaScript</h1>
+                {/* <h1>Semana do Zero ao JavaScript</h1> */}
+                <Logo src={logo} />
             </HeaderTitleContainer>
         </StyledHeader>
     )
 }
 
 export default Header
+
+const Logo = styled.img`
+    height: 20vmin;
+`
 
