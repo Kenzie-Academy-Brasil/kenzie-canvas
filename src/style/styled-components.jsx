@@ -299,7 +299,6 @@ const CloseButton = styled(CloseOutlined)`
 `
 
 const StyledIframe = styled.iframe`
-    width: 100%;
     margin: 0rem auto;
     padding: 0 10% 10% 30%;
     border: none;
@@ -312,6 +311,7 @@ const StyledIframe = styled.iframe`
     /*RESPONSIVE*/
     @media (min-width: 320px) and (max-width: 1024px) {
         width: 100%;
+        padding: 0 0% 10% 0%;
     }
 `
 
@@ -329,7 +329,7 @@ const IframeTitle = styled.div`
 
     /*RESPONSIVE*/
     @media (min-width: 320px) and (max-width: 1024px) {
-        padding-left: 15%;
+        padding-left: 2%;
 
         h3 {
             font-size: 26px;
