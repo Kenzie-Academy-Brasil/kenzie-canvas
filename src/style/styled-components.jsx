@@ -429,13 +429,15 @@ const SideBarLessonsMenu = styled.div`
     }
 `
 
-const SiderLivesContainer = styled.div`
+const SiderLivesContainer = styled.button`
     width: 85%;
     background-color: #0479fb;
     margin: 10px 0 10px 0;
     padding: 10px 0 0 0;
+    border: none;
     border-radius: 10px;
     box-shadow: 0 0 5px grey;
+    outline: none;
 
     h2 {
         font-weight: bold;
