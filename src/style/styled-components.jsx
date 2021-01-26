@@ -250,6 +250,7 @@ const StyledHeader = styled.header`
 const StyledMenuButton = styled.button`
     border-style: none;
     background-color: rgba(255, 0, 0, 0);
+    outline: none; 
     
     @media (min-width: 320px) and (max-width: 1024px) {
         padding-left: 0px;
@@ -257,12 +258,28 @@ const StyledMenuButton = styled.button`
 `
 
 const Hamburguer = styled(MenuOutlined)`
-    font-size: 30px;
-    color: #05143c;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5fdbfa;
+    /*border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;*/ 
 
     @media (min-width: 320px) and (max-width: 1024px) {
         color: #fff;
         font-size: 26px;
+    }
+`
+
+const CloseButton = styled(CloseOutlined)`
+    font-size: 40px;
+    font-weight: bold;
+    color: #5fdbfa;
+
+    @media (min-width: 320px) and (max-width: 1024px) {
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
     }
 `
 
@@ -288,16 +305,6 @@ const HeaderTitleContainer = styled.div`
     }
 `
 
-const CloseButton = styled(CloseOutlined)`
-    font-size: 30px;
-    color: #05143c;
-
-    @media (min-width: 320px) and (max-width: 1024px) {
-        color: #fff;
-        font-size: 26px;
-        font-weight: bold;
-    }
-`
 
 const StyledIframe = styled.iframe`
     margin: 0rem auto;
