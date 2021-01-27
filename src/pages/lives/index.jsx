@@ -6,6 +6,7 @@ import Logo from '../../assets/img/[LOGO].png'
 import LogoWhite from '../../assets/logo-kenzie/logo-kenzie-white.png'
 import { SectionGroup } from '../../style/styled-components'
 import FooterLives from '../../components/footer_page_lives/'
+import CtaButton from '../../components/cta-button/'
 
 export const color = {
     "white": "#fff",
@@ -21,6 +22,8 @@ const PageLives = () => {
         <>
             <SectionGroup style={{ "backgroundColor": color.white }}>
                 <HeaderLives logo={Logo} title="NÃO PERCA NENHUMA LIVE" subtitle="Confira tudo o que está rolando na semana que vai mudar o seu futuro" />
+
+                <CtaButton cta="Faça parte da nossa comunidade no Slack" url="https://participe.kenzie.com.br/slack" />
 
                 <VideoSection title="Lives com Daniel" date1="26/01" title1="Descubra sua grande oportunidade de carreira para 2021" urlVideo1="https://www.youtube.com/embed/6HXeByLjrPs" date2="27/01" title2="Segredos para você ter sucesso na programação" urlVideo2="https://www.youtube.com/embed/QOoW3evXhSM" date3="28/01" title3="A jornada COMPLETA para você entrar na carreira do futuro, ser disputado pelas empresas e ganhar 5x mais." urlVideo3="https://www.youtube.com/embed/8O4z_rnqWiI" date4="29/01" title4="10 Passos para ter um perfil atraente no Linkedin." urlVideo4="https://www.youtube.com/embed/DQsNx4hhKLA" bonus="Live Bônus" />
 
