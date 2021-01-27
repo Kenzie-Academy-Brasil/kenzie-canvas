@@ -514,8 +514,92 @@ const Header = styled.header`
         }
     }
 
+    
 `
 
+const BackgroundSection = styled.div`
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem auto;
+    width: 1400px;
+
+    h2 {
+        color: #00013c;
+        font-size: 52px;
+        font-weight: 700;
+        font-style: italic;
+        width: 1900px;
+        height: 50px;
+    }
+
+    h3 {
+        font-size: 32px;
+        color: #00013c;
+        width: 600px;
+    }
+
+    h4 {
+        font-size: 32px;
+        font-weight: 700;
+        color: #00dbff;
+        width: 600px;
+        height: 30px;
+    }
+
+    p {
+        font-size: 42px;
+        font-weight: 700;
+        color: #00013c;
+        height: 20px;
+    }
+
+    iframe {
+        margin: 2rem;
+    }
+
+    div {
+        margin: 0;
+    }
+
+    @media (min-width: 320px) and (max-width: 1024px) {
+        width: 320px;
+
+        h2 {
+            color: #00013c;
+            font-size: 32px;
+            font-weight: 700;
+            font-style: italic;
+            width: 100%;
+        }
+
+        h3 {
+            font-size: 22px;
+            color: #00013c;
+            width: 300px;
+        }
+
+        p {
+            font-size: 42px;
+            font-weight: 700;
+            color: #00013c;
+        }
+
+        iframe {
+            margin: 2rem;
+        }
+
+        span {
+            
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1440px) {
+        width: 1200px;
+    }
+`
 
 export {
     Image,
@@ -544,5 +628,6 @@ export {
     MenuItem,
     SideBarLessonsMenu,
     SiderLivesContainer,
-    Header
+    Header,
+    BackgroundSection
 }
