@@ -1,5 +1,6 @@
 import { Form, Input, Button, Menu, Item } from 'antd'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
+import { color } from '../pages/lives/'
 import styled from 'styled-components'
 
 const Image = styled.img`
@@ -518,7 +519,6 @@ const Header = styled.header`
 `
 
 const BackgroundSection = styled.div`
-    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -532,7 +532,7 @@ const BackgroundSection = styled.div`
         font-weight: 700;
         font-style: italic;
         width: 1900px;
-        height: 50px;
+        height: 100px;
     }
 
     h3 {
@@ -572,17 +572,18 @@ const BackgroundSection = styled.div`
             font-size: 32px;
             font-weight: 700;
             font-style: italic;
-            width: 100%;
+            width: 300px;
         }
 
         h3 {
             font-size: 22px;
             color: #00013c;
-            width: 300px;
+            width: 90%;
+            padding: 0 0 0 5%;
         }
 
         p {
-            font-size: 42px;
+            font-size: 32px;
             font-weight: 700;
             color: #00013c;
         }
@@ -600,6 +601,32 @@ const BackgroundSection = styled.div`
         width: 1200px;
     }
 `
+
+const SectionGroup = styled.div`
+    
+`
+
+const FooterPageLives = styled.footer`
+    background-color: #00013c;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    figure {
+
+    }
+
+    img {
+        height: 15vmin;
+    }
+
+    p {
+        font-size: 22px;
+        color: #fff;
+    }
+`
+
 
 export {
     Image,
@@ -629,5 +656,7 @@ export {
     SideBarLessonsMenu,
     SiderLivesContainer,
     Header,
-    BackgroundSection
+    BackgroundSection,
+    SectionGroup,
+    FooterPageLives
 }

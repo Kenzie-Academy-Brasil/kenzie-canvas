@@ -63,7 +63,7 @@ const VideoSection = (props) => {
                         <p>{props.date4}</p>
                     </div>
                     <div>
-                        <h4>{props.bonus}</h4>
+                        {props.bonus === "Live Bônus" ? <h4>{props.bonus}</h4> : null}
                     </div>
                     <div>
                         <h3>{props.title4}</h3>
