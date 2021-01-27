@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 import { Switch, Route, Redirect, useHistory } from 'react-router-dom'
 import AccesPage from '../pages/access/'
 import Modules from '../pages/modules/'
+import PageLives from '../pages/lives/'
 
 const Routes = () => {
     const [token, setToken] = useState(localStorage.getItem('accessToken'))
     const [accessKey, setAccessKey] = useState("queroserfullstack")
     const [accessGranted, setAccessGranted] = useState()
-
-    console.log(token)
 
     const history = useHistory()
 
@@ -24,12 +23,6 @@ const Routes = () => {
         }
     };
 
-    // const logout = () => {
-    //     localStorage.clear()
-    //     history.push('/')
-    //     console.log(token)
-    // }
-
     return (
         <Switch>
             <Route exact path="/">
@@ -41,6 +34,9 @@ const Routes = () => {
             <Route exact path="/modulos">
                 {/* <Modules /> */}
                 {token !== null ? <Modules /> : <Redirect to="/acesso" />}
+            </Route>
+            <Route exact path="/lives">
+                <PageLives />
             </Route>
         </Switch>
     )

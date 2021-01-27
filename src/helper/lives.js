@@ -1,11 +1,25 @@
 export const lives = [
     {
-        "day": "26",
+        "day": "ceo",
         "content": [
             {
                 "title": "Descubra sua grande oportunidade de carreira para 2021",
                 "url": "https://www.youtube.com/embed/6HXeByLjrPs",
             },
+            {
+                "title": "Segredos para você ter sucesso na programação!",
+                "url": "https://www.youtube.com/embed/QOoW3evXhSM",
+            },
+            {
+                "title": "A jornada COMPLETA para você entrar na carreira do futuro, ser disputado pelas empresas e ganhar 5x mais",
+                "url": "https://www.youtube.com/embed/8O4z_rnqWiI",
+            }
+        ]
+    }
+    ,
+    {
+        "day": "26",
+        "content": [
             {
                 "title": "26/01 - Live com Hudson Carolino e Maria Porcina",
                 "url": "https://www.youtube.com/embed/xBDAwS49Ed0",
@@ -19,10 +33,6 @@ export const lives = [
     {
         "day": "27",
         "content": [
-            {
-                "title": "Segredos para você ter sucesso na programação!",
-                "url": "https://www.youtube.com/embed/QOoW3evXhSM",
-            },
             {
                 "title": "27/01 - Live com Hudson Carolino e Maria Porcina",
                 "url": "https://www.youtube.com/embed/KfJcSrCHNnM",
@@ -53,10 +63,6 @@ export const lives = [
     {
         "day": "29",
         "content": [
-            {
-                "title": "A jornada COMPLETA para você entrar na carreira do futuro, ser disputado e ganhar 5x mais",
-                "url": "https://www.youtube.com/embed/8O4z_rnqWiI",
-            },
             {
                 "title": "29/01 - Live com Hudson Carolino e Maria Porcina",
                 "url": "https://www.youtube.com/embed/4nXBiG9ZYM0",

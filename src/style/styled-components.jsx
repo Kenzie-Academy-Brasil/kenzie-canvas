@@ -455,6 +455,36 @@ const SiderLivesContainer = styled.button`
     }
 `
 
+//Live page
+
+const Header = styled.header`
+    background-color: #00013c;
+    height: 650px;
+
+    figure {
+        padding: 50px 0 0 80px;;
+    }
+
+    img {
+       height: 32vmin;
+    }
+
+    h2 {
+        color: #00dbff;
+        font-size: 52px;
+        font-weight: 800;
+        font-style: italic 
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 32px;
+        width: 700px;
+        margin: 0rem auto;
+    }
+
+`
+
 
 export {
     Image,
@@ -482,5 +512,6 @@ export {
     StyledSideMenu,
     MenuItem,
     SideBarLessonsMenu,
-    SiderLivesContainer
+    SiderLivesContainer,
+    Header
 }
