@@ -627,6 +627,74 @@ const FooterPageLives = styled.footer`
     }
 `
 
+const ButtonCtaLives = styled.div`
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        font-size: 22px;
+        padding-right: 10%;
+        
+    }
+
+    button {
+        height: 80px;
+        width: 600px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #f2f2f2;
+        background-color: #0479fb;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+        a {
+            font-size: 22px;
+            padding-right: 62.5%;
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+
+    @media (min-width: 376px) and (max-width: 425px) {
+        a {
+            font-size: 22px;
+            padding-right: 50%;
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+
+    @media (min-width: 426px) and (max-width: 768px) {
+        a {
+            font-size: 22px;
+            padding-right: 30%;
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        a {
+            font-size: 22px;
+            padding-right: 15%;
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+`
 
 export {
     Image,
@@ -658,5 +726,6 @@ export {
     Header,
     BackgroundSection,
     SectionGroup,
-    FooterPageLives
+    FooterPageLives,
+    ButtonCtaLives
 }
