@@ -358,13 +358,13 @@ export const lessons = [
                 "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=20232172&filename=dia5-simplificado.md&ref=experiencia",
                 "fileName": ""
             },
-            {
-                "module": "Fundamentos de programação com JavaScript",
-                "lessonName": "Entrega - Mostre seu conhecimento",
-                "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/292",
-                "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=22512849&filename=canvas_instructions.md&ref=master",
-                "fileName": ""
-            }
+            // {
+            //     "module": "Fundamentos de programação com JavaScript",
+            //     "lessonName": "Entrega - Mostre seu conhecimento",
+            //     "lessonUrl": "https://experiencia.kenzie.com.br/courses/5/modules/items/292",
+            //     "iframeUrl": "https://npepa32v9l.execute-api.us-east-1.amazonaws.com/v2/?project_id=22512849&filename=canvas_instructions.md&ref=master",
+            //     "fileName": ""
+            // }
         ]
     },
     {
