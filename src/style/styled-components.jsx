@@ -582,6 +582,14 @@ const BackgroundSection = styled.div`
             padding: 0 0 0 5%;
         }
 
+        h4 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #00dbff;
+            width: 70%;
+            height: 30px;
+        }
+
         p {
             font-size: 32px;
             font-weight: 700;
@@ -652,9 +660,10 @@ const ButtonCtaLives = styled.div`
     }
 
     @media (min-width: 320px) and (max-width: 375px) {
+        padding-right: 58%;
+
         a {
             font-size: 22px;
-            padding-right: 62.5%;
         }
 
         button {
