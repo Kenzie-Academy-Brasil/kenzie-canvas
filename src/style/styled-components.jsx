@@ -582,6 +582,14 @@ const BackgroundSection = styled.div`
             padding: 0 0 0 5%;
         }
 
+        h4 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #00dbff;
+            width: 100%;
+            height: 30px;
+        }
+
         p {
             font-size: 32px;
             font-weight: 700;
@@ -589,17 +597,25 @@ const BackgroundSection = styled.div`
         }
 
         iframe {
-            margin: 2rem;
+            margin: 0;
         }
 
-        span {
-            
-        }
+        
     }
 
     @media (min-width: 1025px) and (max-width: 1440px) {
         width: 1200px;
     }
+`
+
+const ContentContainer = styled.div`
+    @media (min-width: 320px) and (max-width: 1024px) {
+        width: 320px;
+
+        iframe {
+            padding: 0;
+        }
+    }    
 `
 
 const SectionGroup = styled.div`
@@ -652,9 +668,10 @@ const ButtonCtaLives = styled.div`
     }
 
     @media (min-width: 320px) and (max-width: 375px) {
+        padding-right: 58%;
+
         a {
             font-size: 22px;
-            padding-right: 62.5%;
         }
 
         button {
@@ -727,5 +744,6 @@ export {
     BackgroundSection,
     SectionGroup,
     FooterPageLives,
-    ButtonCtaLives
+    ButtonCtaLives,
+    ContentContainer
 }
