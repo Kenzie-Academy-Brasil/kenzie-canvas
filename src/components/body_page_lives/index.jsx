@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BackgroundSection } from '../../style/styled-components'
+import { BackgroundSection, ContentContainer } from '../../style/styled-components'
 import { useWindowSize } from '../../helper/window-size-hook'
 
 
@@ -21,7 +21,7 @@ const VideoSection = (props) => {
             <div>
                 <h2>{props.title}</h2>
             </div>
-            <div>
+            <ContentContainer>
                 <div>
                     <div>
                         <p>{props.date1}</p>
@@ -32,7 +32,7 @@ const VideoSection = (props) => {
                 </div>
 
                 {responsiveIframe(props.urlVideo1)}
-            </div>
+            </ContentContainer>
             <div>
                 <div>
                     <div>

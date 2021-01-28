@@ -586,7 +586,7 @@ const BackgroundSection = styled.div`
             font-size: 32px;
             font-weight: 700;
             color: #00dbff;
-            width: 70%;
+            width: 100%;
             height: 30px;
         }
 
@@ -597,17 +597,25 @@ const BackgroundSection = styled.div`
         }
 
         iframe {
-            margin: 2rem;
+            margin: 0;
         }
 
-        span {
-            
-        }
+        
     }
 
     @media (min-width: 1025px) and (max-width: 1440px) {
         width: 1200px;
     }
+`
+
+const ContentContainer = styled.div`
+    @media (min-width: 320px) and (max-width: 1024px) {
+        width: 320px;
+
+        iframe {
+            padding: 0;
+        }
+    }    
 `
 
 const SectionGroup = styled.div`
@@ -736,5 +744,6 @@ export {
     BackgroundSection,
     SectionGroup,
     FooterPageLives,
-    ButtonCtaLives
+    ButtonCtaLives,
+    ContentContainer
 }
