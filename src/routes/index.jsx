@@ -6,7 +6,7 @@ import PageLives from '../pages/lives/'
 
 const Routes = () => {
     const [token, setToken] = useState(localStorage.getItem('accessToken'))
-    const [accessKey, setAccessKey] = useState("queroserfullstack")
+    const [accessKey, setAccessKey] = useState("ninguemmesegura")
     const [accessGranted, setAccessGranted] = useState()
 
     const history = useHistory()
